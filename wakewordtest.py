@@ -13,7 +13,7 @@ with open('.env') as f:
 
 porcupine = pvporcupine.create(
 	access_key=vars['ACCESS_KEY'],
-	keyword_paths=['Hey-Arco.ppn']
+	keyword_paths=['Arco-Wake.ppn']
 )
 
 recorder = PvRecorder(frame_length=porcupine.frame_length)
